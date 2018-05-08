@@ -25,7 +25,7 @@ SECRET_KEY = '4@1x@ix(rmg#e!9o1-2=fz+xjw3#a#g592$@a44h@u)yx@zl^*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'djangogirls.urls'
+ROOT_URLCONF = 'soongja.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'djangogirls.wsgi.application'
+WSGI_APPLICATION = 'soongja.wsgi.application'
 
 
 # Database
